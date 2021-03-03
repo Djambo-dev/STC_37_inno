@@ -1,3 +1,5 @@
+package homeWork2;
+
 import java.util.Scanner;
 
 class Program1 {

@@ -1,3 +1,5 @@
+package homeWork4;
+
 class Program2 {
 	public static void main(String[] args) {
 		int[] arr = {2, 3, 4, 10, 40, 90, 100, 1000, 2000, 3333};

@@ -1,3 +1,5 @@
+package homeWork6;
+
 public class RemoteController {
 
     private TV tv;

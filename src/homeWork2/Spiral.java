@@ -1,3 +1,5 @@
+package homeWork2;
+
 class Spiral{
 	public static void main(String[] args) {
 		int m = 5;

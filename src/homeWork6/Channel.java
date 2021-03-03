@@ -1,3 +1,5 @@
+package homeWork6;
+
 import java.util.Random;
 
 public class Channel {

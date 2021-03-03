@@ -1,3 +1,5 @@
+package homeWork6;
+
 public class Program {
 
     public Program(String name){
