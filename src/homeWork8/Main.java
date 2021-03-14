@@ -11,10 +11,13 @@ public class Main {
         System.out.println(square.getX());
         Shape cirlce = new Circle(25, 1, 1);
         System.out.println(cirlce.getX());
+
         cirlce.moveCenter(2, 2);
         System.out.println(cirlce.getX());
         System.out.println(square.getX());
         square.moveCenter(2 ,2);
         System.out.println(square.getX());
+        Movable rectangle = new Rectangle(10, 25);
+        System.out.println(rectangle);
     }
 }

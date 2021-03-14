@@ -10,6 +10,7 @@ public class NumbersAndStringProcessor {
     int[] processInt;
     String[] processString;
 
+
     /**
      *Constructor that accepting arrays with source lines or nums.
      * @param processInt integer array with source nums.

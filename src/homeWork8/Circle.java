@@ -8,7 +8,7 @@ public class Circle extends Ellipse {
         return radius;
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(int radius) {
         this.radius = radius;
     }
 
@@ -18,12 +18,12 @@ public class Circle extends Ellipse {
 
     }
 
-    public Circle(double radius) {
+    public Circle(int radius) {
         super(2 * radius, 2 * radius);
         this.radius = radius;
     }
 
-    public Circle(double radius, double x, double y) {
+    public Circle(int radius, int x, int y) {
         super(2 * radius, 2 * radius, x, y);
         this.radius = radius;
     }
