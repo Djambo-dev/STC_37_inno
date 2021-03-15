@@ -169,10 +169,8 @@ public class InnoLinkedList implements InnoList {
             // если следующего узла нет - не идем дальше
 
 
-            if (current.next != null) {
-                return true;
-            }
-            return current == last;
+
+            return current != null;
         }
     }
 

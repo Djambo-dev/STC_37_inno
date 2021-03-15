@@ -4,6 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        InnoList arrayInno = new InnoArrayList();
+        arrayInno.add(-77);
+        arrayInno.add(5);
+        arrayInno.add(-551);
+        arrayInno.add(11);
+        arrayInno.add(214);
+        arrayInno.add(455);
+        arrayInno.removeByIndex(2);
+        arrayInno.insert(2,55);
+
         InnoList list = new InnoLinkedList();
 
         list.add(7);
@@ -18,31 +28,19 @@ public class Main {
         list.removeByIndex(5);
         list.remove(10);
 
-        InnoList arrayInno = new InnoArrayList();
-        arrayInno.add(-77);
-        arrayInno.add(5);
-        arrayInno.add(-551);
-        arrayInno.add(11);
-        arrayInno.add(214);
-        arrayInno.add(455);
-        arrayInno.removeByIndex(2);
-        arrayInno.insert(2,55);
 
         InnoIterator iterator1 = arrayInno.iterator();
         while (iterator1.hasNext()) {
             int x = iterator1.next();
-            if (x != 0) {
-                System.out.println(x + " ");
-            }
+
+                System.out.println(x);
+
         }
 
             InnoIterator iterator2 = list.iterator();
-            try {
+
                 while (iterator2.hasNext())
                     System.out.println(iterator2.next());
-            } catch (NullPointerException e){
-
-            }
 
     }}
 
