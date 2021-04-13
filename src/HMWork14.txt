@@ -1,0 +1,13 @@
+1#Camry#Black#125000#900000
+2#Opel#Red#0#1100000
+3#Lada#Green#22000#500000
+4#Camry#Blue#0#1500000
+9#Volvo#Pink#9000#1000
+5#Jeep#Silver#40000#999999
+6#Lexus#Gold#222222#800000
+7#Kia#Brown#777777#919191
+8#Mazda#Black#9000#888888
+9#Honda#Black#9000#777777
+10#Honda#Red#9000#710000
+11#BMW#Green#9#767676
+9#Honda#Black#9000#777777
